@@ -1,0 +1,26 @@
+# GRIB: 140229 Significant height of wind waves and swell combined [m],
+# QD: 165 SigWaveHeight 
+140229;165;Significant Wave Height [m];0;1
+
+# GRIB: 260232 Direction of wind waves [Degree true]
+# QD: 167 WaveDirection
+260232;167;Direction of Wind Waves [deg];0;1
+
+# GRIB: 3103 Mean period of wind waves [2]
+# QD: 171 WavePeriod
+3103;171;Mean Period of Wind Waves [s];0;1
+
+# 10m U-Component of Wind (u) m/s
+131;23;u;0;1;105;10
+# U-Component of Wind (u) m/s
+131;23;u
+
+# 10m V-Component of Wind (v) m/s
+132;24;v;0;1;105;10
+# V-Component of Wind (v) m/s
+132;24;v
+
+# 10m Wind speed (ws) m/s (vois olla 207?)
+10;21;ws;0;1;105;10
+# Wind speed (ws) m/s
+10;21;ws
