@@ -2,7 +2,7 @@
 
 Name:           smartmet-data-ww3
 Version:        17.5.8
-Release:        1%{?dist}.fmi
+Release:        2%{?dist}.fmi
 Summary:        SmartMet Data WW3
 Group:          System Environment/Base
 License:        MIT
@@ -10,7 +10,7 @@ URL:            https://github.com/fmidev/smartmet-data-ww3
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:	noarch
 
-Requires:	smartmet-qdconversion
+Requires:	smartmet-qdtools
 Requires:	bzip2
 
 
